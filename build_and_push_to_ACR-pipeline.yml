@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  tag: '$(Build.BuildId'
+  tag: '$(Build.BuildId)'
 
 stages:
   - stage: Build
